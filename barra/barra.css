@@ -1,0 +1,228 @@
+#barrera{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 25px;
+}
+
+.navItem {
+    width: 50px;
+    height: 30px;
+}
+
+#carrito{
+    color: red;
+}
+
+.icon{
+    font-size: 20px;
+    color: black;
+}
+
+.icon2{
+    font-size: 15px;
+    color: black;
+    margin-right: 20px;
+}
+
+#cuenta{
+    text-align: center;
+}
+
+#modalIniciar{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-control{
+    width: 100% !important;
+    height: 38px !important;
+}
+
+#botonesSesion{
+    margin-top: 30px;
+}
+
+#botonesSesion2{
+    margin-top: 30px;
+}
+
+#botonCon{
+    margin-right: 20px;
+} 
+
+#crearCuenta{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#crearCuenta:hover{
+    color: rgb(0, 123, 255) !important;
+}
+
+#tenerCuenta{ 
+    width: 100%;
+    border-top: 1px gainsboro solid;
+    margin-top: 20px;
+}
+
+#keyHelp{
+    color: red !important;
+}
+
+#dropCarro{
+    width: 400px;
+    height: 450px;
+    margin-top: 30px;
+}
+
+#carritoBody{
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    overflow-y: auto;
+}
+
+#botonModal1{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 46px;
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: #8adb72;
+    border-color: #8adb72;
+}
+
+#botonModal1:hover{
+    background-color: #9bec63;
+    border-color: #9bec63;
+}
+
+#botonModal2{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 46px;
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: #8adb72;
+    border-color: #8adb72;
+}
+
+#botonModal2:hover{
+    background-color: #9bec63;
+    border-color: #9bec63;
+}
+
+
+#espacio1{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 46px;
+    border-radius: 0px;
+}
+
+#precioCarro{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#payphone-btn{
+    background-color: rgb(34, 141, 58) !important;
+    border-color: rgb(34, 141, 58) !important;
+}
+
+#tarjeta{
+    margin-top: 20px; 
+}
+
+#confirTar {
+    background-color: #8adb72;
+    border-color: #8adb72;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#cancelarTar {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#menuInicio{
+    margin-top: 20px;
+}
+
+#logoInicio{
+    margin-left: '17px';
+}
+
+.datosPago{
+    text-align: left;
+    margin: 5px;
+}
+
+#cuenta1{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+}
+
+#cuenta2{
+    padding-top: 20px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+@media (min-width:301px) and (max-width: 700px){
+    #barrera{
+        border-radius: 0px;
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    #logoInicio{
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 25px;
+        width: 40%;
+    }
+
+    #casaInicio{
+        display: none;
+    }
+
+    #carroInicio{
+       text-align: center;
+       width: 30px;
+       display: block;
+       margin: 0 auto;
+    }
+
+    #userIn{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #userOut{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #dropCarro{
+        width: 270px;
+    }
+
+    #menuInicio{
+        margin-top: 0px;
+    }
+}

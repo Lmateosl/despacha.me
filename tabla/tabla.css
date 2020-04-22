@@ -1,0 +1,332 @@
+@-webkit-keyframes miAnimacion2{
+    0%{
+        background-color: #8adb72;
+        border-color: #8adb72;
+    }
+    20%{
+        background-color: #ff6666;
+        border-color: #ff6666;
+    }
+    40%{
+        background-color: #ff6666;
+        border-color: #ff6666;
+        content: 'hola';
+    }
+    60%{
+        background-color: #ff6666;
+        border-color: #ff6666;
+    }
+    80%{
+        background-color: #ff6666;
+        border-color: #ff6666;
+    }
+    100%{
+        background-color: #8adb72;
+        border-color: #8adb72;
+    }
+}
+
+@-webkit-keyframes carrusel1{
+    0%{
+        opacity: 0;   
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes carrusel2{
+    0%{
+        transform: scale(1, 1);   
+    }
+    50%{
+        transform: scale(1.1, 1.1); 
+    }
+
+    100%{
+        transform: scale(1, 1); 
+    }
+}
+
+#cuerposos{
+    margin: auto;
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+}
+
+#head{
+    margin-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#buscar{
+    margin-left: 20px;
+}
+
+#tableas{
+    max-width: 90%;
+    margin-left: 60px;
+    margin-right: 20px;
+    overflow: auto;
+    height: 520px;
+}
+
+.objeto{
+    margin-bottom: 20px;
+}
+
+.inputValor{
+    width: 50px;
+}
+
+.add{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #8adb72;
+    font-weight: bold !important;
+    border: 1px solid #8adb72 ;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px gainsboro;
+    transition-timing-function: step-start;
+}
+
+#dibujar{
+    margin-top: 30px;
+}
+
+.border{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#modalContorno{
+    max-width: 800px;
+}
+
+#imgModal{
+    border: "solid 1px black";
+}
+
+#datosModal{
+    padding: 50px;
+}
+
+#tituloFruta{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100%;
+}
+
+#precioFruta{
+    text-align: center;
+    font-weight: bold;
+    font-size: 90%;
+    max-height: 35px;
+}
+
+.icono{
+    color: black;
+
+}
+
+.inputValor1{
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0.5px gainsboro solid;
+    background-color: white;
+    padding: 5px 5px 5px 15px;
+    color: black;
+}
+
+#masMenos{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#serchWid{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#backLogo{
+    background-color: #8adb72;
+    border-color: #8adb72;
+}
+
+#iconoLogo{
+    color: white;
+}
+
+#inputSerch:focus{
+    border: 1px solid #8adb72;
+    box-shadow: 0.1px 0.1px #8adb72;
+}
+
+.itemCar{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(184,184,184,1);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(184,184,184,1);
+    box-shadow: 2px 2px 5px 2px rgba(184,184,184,1);
+}
+
+.itemCar:hover {
+    -webkit-box-shadow: 2px 2px 62px -18px rgba(5,5,5,1);
+    -moz-box-shadow: 2px 2px 62px -18px rgba(5,5,5,1);
+    box-shadow: 2px 2px 62px -18px rgba(5,5,5,1);
+}
+
+.iconos{
+    margin: 0 auto;
+    display: block;
+    width: 10px;
+    margin-top: 20px;
+}
+
+.descCar{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+#kits{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587255643/frutas/Sin_t%C3%ADtulo-3-04-min_fnhjn3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#frutasLindas{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587255643/frutas/Sin_t%C3%ADtulo-3-04-min_fnhjn3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#abarrotes{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587255649/frutas/Sin_t%C3%ADtulo-3-02-min_ka0dmo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pan{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587255644/frutas/Sin_t%C3%ADtulo-3-03-min_dggoas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lyh{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587255643/frutas/Sin_t%C3%ADtulo-3-08-min_p5lv48.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vegetales{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587255644/frutas/Sin_t%C3%ADtulo-3-05-min_lquuyp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#medicina{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587255649/frutas/Sin_t%C3%ADtulo-3-06-min_vdneh3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#donaciones{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1587256493/frutas/WhatsApp_Image_2020-04-18_at_16.52.12_p0yeg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lyh2{
+    font-size: 20px;
+}
+
+#carruselTop2{
+    display: none;
+}
+
+#carruselTop{
+    margin-top: 40px;
+}
+
+@media (min-width:301px) and (max-width: 700px){
+    #cuerposos{
+        width: 100%;
+        border-radius: 0px;
+        background-color: #F0F0F7;
+    }
+
+    #carruselTop{
+        display: none;
+    }
+
+    #carruselTop2{
+        display: flex;
+        width: 100%; 
+        height: 100px;
+    }
+    
+    #flecha12{
+        margin-left: 5px;
+    }
+
+    .descCar{
+        font-size: 17px;
+        padding-top: 25px;
+    }
+
+    .itemCar{
+        height: 80px;
+    }
+
+    #tableas{
+        margin-left: 20px;
+        height: 450px;
+    }
+
+    .border{
+        background-color: white;
+        min-height: 330px;
+        -webkit-box-shadow: 2px 2px 5px 2px rgba(184,184,184,1);
+        -moz-box-shadow: 2px 2px 5px 2px rgba(184,184,184,1);
+        box-shadow: 2px 2px 5px 2px rgba(184,184,184,1);
+    }
+
+    #head{
+        margin-bottom: 0px;
+    }
+
+    #serchWid{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #inputSerch{
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    #lyh2{
+        font-size: 15px;
+    }
+
+    #dibujar{
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,90 @@
+@-webkit-keyframes miAnimacion{
+    0%{
+        font-size: 20px;
+        color: black;
+    }
+    20%{
+        font-size: 22px;
+        transform: rotate(15deg);
+    }
+    40%{
+        font-size: 27px;
+        transform: rotate(-15deg);
+    }
+    60%{
+        font-size: 26px;
+        transform: rotate(15deg);
+        color: #ff6666;
+    }
+    80%{
+        font-size: 25px;
+        transform: rotate(-15deg)
+    }
+    100%{
+    }
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url("https://res.cloudinary.com/indev/raw/upload/v1587135976/frutas/OpenSans-Regular_qe0lvx.ttf")
+}
+
+#opac{
+    background: url("https://res.cloudinary.com/indev/image/upload/v1571705668/frutas/main-fondo_bngg2n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Montserrat';
+    overflow-y: hidden;
+}
+
+
+#espacio{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#login{
+    position: relative;
+}
+
+#barras{
+    position: relative;
+}
+
+#bottom{
+    margin: auto 0;
+    margin-top: 10px;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 0px;
+}
+
+#opac:before{
+    background-color:rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#cuerpo{
+    position: relative;
+}
+
+@media (min-width:301px) and (max-width: 700px){
+    #opac{
+        background-image: none;
+    }
+
+    #opac:before{
+        background-color: #F0F0F7;
+    }
+
+    #espacio{
+        display: none;
+    }
+}
