@@ -14,12 +14,6 @@ const path = require('path');
 		filename:'index.js',
 		publicPath: '/static/'
 	  },
-	  devServer:{
-		inline: true,
-		port: 8080,
-		publicPath: '/static/',
-		historyApiFallback: true
-	  },
 
 	  module:{
 	    rules:[

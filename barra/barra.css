@@ -1,3 +1,31 @@
+@-webkit-keyframes tarjetas{
+    0%{
+        background-color: #ff6666;
+        border-color: #ff6666;
+    }
+    20%{
+        background-color: #8adb72;
+        border-color: #8adb72;
+    }
+    40%{
+        background-color: #8adb72;
+        border-color: #8adb72;
+    }
+    60%{
+        background-color: #8adb72;
+        border-color: #8adb72;
+    }
+    80%{
+        background-color: #8adb72;
+        border-color: #8adb72;
+    }
+    100%{
+        background-color: #8adb72;
+        border-color: #8adb72;
+    }
+}
+
+
 #barrera{
     margin: 0 auto;
     width: 70%;
@@ -75,7 +103,7 @@
 
 #dropCarro{
     width: 400px;
-    height: 450px;
+    height: 500px;
     margin-top: 30px;
 }
 
@@ -107,7 +135,6 @@
     margin: 0 auto;
     width: 100%;
     height: 46px;
-    margin-top: 20px;
     border-radius: 0px;
     background-color: #8adb72;
     border-color: #8adb72;
@@ -116,6 +143,17 @@
 #botonModal2:hover{
     background-color: #9bec63;
     border-color: #9bec63;
+}
+
+#botonModal3{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 46px;
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: #ff6666;
+    border-color: #ff6666;
 }
 
 
@@ -182,6 +220,10 @@
     margin-bottom: 30px;
 }
 
+#tarjetas:hover {
+    color: rgb(0, 123, 255) !important;
+}
+
 @media (min-width:301px) and (max-width: 700px){
     #barrera{
         border-radius: 0px;
@@ -219,7 +261,9 @@
     }
 
     #dropCarro{
-        width: 270px;
+        width: 320px;
+        margin-right: 0px;
+        margin-top: 0px;
     }
 
     #menuInicio{
